@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Thai:wght@100..900&display=swap');
+*{
+    margin: 0;
+    font-family: "Noto Sans Thai", sans-serif;
+}
+/* ---------- ใช้คุมทุกส่วนให้อยู่ตรงกลาง ---------- */
+.container{
+    max-width: 1170px;
+    margin: 0 auto;
+}
+/* ---------- header(ส่วนหัว) ---------- */
+header{
+    height: 350px;
+    background-color: #04364A;
+    color: #DAFFFB;
+}
+.head{
+    position: relative;
+}
+.h-image{
+    position: absolute;
+    top: 40px;
+    left: 150px;
+}
+.h-image img{
+    width: 150px;
+    border-radius: 20px;
+    box-shadow: 2px 2px 8px 4px rgba(0, 0, 0, 0.1);
+}
+.h-text{
+    position: absolute;
+    top: 70px;
+    left: 375px;
+}
+/* ---------- section(ภาพทั้งหมด) ---------- */
+section{
+    background-color: #64CCC5;
+}
+.con-picture{
+    position: relative;
+    max-height: 1300px;
+}
+.picture{
+    margin-top: 20px;
+    position: absolute;
+    width: 32.33%;
+    text-align: center;
+}
+.picture img,.info-pic img{
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 2px 2px 8px 4px rgba(0, 0, 0, 0.1);
+}
+.picture h3{
+    margin-top: 15px;
+}
+.picture button,.btn button{
+    margin-top: 25px;
+    width: 80px;
+    height: 35px;
+    border: none;
+    border-radius: 10px;
+    background-color: #04364A;
+    box-shadow: 2px 2px 8px 4px rgba(0, 0, 0, 0.1);
+}
+.picture button a,a,.btn button a{
+    color: #DAFFFB;
+    text-decoration: none;
+    font-size: 15px;
+}
+/* ---------- footer(ส่วนท้าย) ---------- */
+footer{
+    color: #DAFFFB;
+    background-color: #176B87;
+    height: 170px;
+}
+.f-info{
+    text-align: center;
+    padding-top: 30px;
+}
+.f-info p{
+    margin-top: 20px;
+}
+.item{
+    padding: 0 20px;
+}
+/* ---------- ส่วน html หน้าย่อย ---------- */
+.btn{
+    position: absolute;
+    right: 0;
+    top: 550px;
+}
+.info-pic{
+    right: 0;
+    top: 50px;
+    position: absolute;
+    width: 40%;
+}
+.info-text{
+    position: absolute;
+    top: 50px;
+    left: 20px;
+}
+.info-text h1{
+    font-size: 40px;
+}
+.info-text p{
+    font-size: 18px;
+    font-weight: bold;
+}
